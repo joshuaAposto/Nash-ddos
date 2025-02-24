@@ -181,7 +181,7 @@ function oten() {
             console.log("\033[0m");
             let tuloy_ranag_attack_buang = true;
             const maxRequests = 1000000; 
-            const requestsPerSecond = 5000;
+            const requestsPerSecond = 10000;
 
             const attack = () => {
                 if (!tuloy_ranag_attack_buang) return;
